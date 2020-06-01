@@ -1,0 +1,8 @@
+apt install docker-compose
+cd /opt
+git clone https://github.com/jgajek/cuckoo-docker.git
+cd /opt/cuckoo-docker
+change in dcoker.compose.yml to be 1.3-Optiv instead of 1.3-NG
+docker-compose pull
+docker-compose up
+                
